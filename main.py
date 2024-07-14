@@ -121,9 +121,10 @@ def exclusive():
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     return render_template('contact.html')
-@app.route('/pregister', methods=['GET', 'POST'])
-def pregister():
-    return render_template('pregister.html')
+
+@app.route('/privacy', methods=['GET', 'POST'])
+def privacy():
+    return render_template('privacy.html')
 
 @app.route('/plogin', methods=['GET', 'POST'])
 def plogin():

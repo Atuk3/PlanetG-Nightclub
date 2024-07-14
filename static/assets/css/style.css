@@ -10534,3 +10534,13 @@ nav[aria-label="breadcrumb"] li:before {
           .form-check-label a:hover {
             text-decoration: underline;
           }
+          .map {
+            width: 100%;
+            height: 400px;
+          }
+          
+          @media (min-width: 992px) {
+            .bg-light {
+              padding: 40px;
+            }
+          }
