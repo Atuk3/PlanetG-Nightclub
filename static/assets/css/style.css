@@ -160,7 +160,8 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+color: #000; }
 
 ol ol,
 ul ul,
@@ -10534,13 +10535,33 @@ nav[aria-label="breadcrumb"] li:before {
           .form-check-label a:hover {
             text-decoration: underline;
           }
-          .map {
-            width: 100%;
-            height: 400px;
+          
+          .site-footer {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            padding: 40px 0;
+          }
+          .site-footer a {
+            color: #D1D1D1; /* White text for links */
+          }
+          .site-footer a:hover {
+            color: #fff; /* Lighter color on hover */
+          }
+          .site-footer .widget h3 {
+            color: #fff; /* White text for headings */
+          }
+          .site-footer .social a {
+            color: #000; /* White icon color */
+            background-color: transparent; /* Transparent background */
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+          }
+          .site-footer .social a:hover {
+            color: #ccc; /* Lighter icon color on hover */
           }
           
-          @media (min-width: 992px) {
-            .bg-light {
-              padding: 40px;
-            }
-          }

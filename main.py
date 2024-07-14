@@ -126,9 +126,9 @@ def contact():
 def privacy():
     return render_template('privacy.html')
 
-@app.route('/plogin', methods=['GET', 'POST'])
-def plogin():
-    return render_template('plogin.html')
+@app.route('/menu', methods=['GET', 'POST'])
+def menu():
+    return render_template('menu.html')
     
 @app.route('/login', methods=['GET', 'POST'])
 def login():
