@@ -53,7 +53,7 @@
             </a>
     
             <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-              <li><a href="/home">EVENT CALENDAR</a></li>
+              <li><a href="#event-calendar">EVENT CALENDAR</a></li>
               <li><a href="/gallery">GALLERY</a></li>
               <li><a href="/contact">CONTACT</a></li>
               <button type="submit" class="btn btn-danger" style="border-radius: 0%;">BOOK NOW</button>
@@ -87,7 +87,7 @@
     
     </div>
 
-    <div class="section">
+    <div class="section" id="event-calendar">
       <div class="container">
         <div class="row mb-5 align-items-center justify-content-center">
           <div class="col-lg-6 text-center">
@@ -267,7 +267,7 @@
               <h3>BOOK</h3>
               <ul class="list-unstyled links">
                 
-                <li><a href="#">CALENDAR</a></li>
+                <li><a href="#event-calendar">CALENDAR</a></li>
                 <li><a href="#">BOTTLE SERVICE</a></li>
                 <li><a href="#">PRIVATE EVENTS</a></li>
                 
@@ -277,8 +277,8 @@
             <div class="widget">
               <h3>EXPLORE</h3>
               <ul class="list-unstyled links">
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">FAQS</a></li>
+                <li><a href="/gallery">GALLERY</a></li>
+                <li><a href="/faqs">FAQS</a></li>
                 <li><a href="/menu">MENU</a></li>
               </ul>
             </div>
@@ -349,15 +349,8 @@
       </div>
       <!-- /.container -->
     </div>
-    <!-- /.site-footer -->
 
-    <!-- Preloader -->
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-    </div>
+    <!-- /.site-footer -->
 
     <script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ url_for('static', filename='assets/js/tiny-slider.js') }}"></script>

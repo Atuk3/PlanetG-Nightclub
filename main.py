@@ -134,6 +134,10 @@ def contact():
 def privacy():
     return render_template('privacy.html')
 
+@app.route('/faqs', methods=['GET', 'POST'])
+def faqs():
+    return render_template('faqs.html')
+
 @app.route('/menu', methods=['GET', 'POST'])
 def menu():
     return render_template('menu.html')
