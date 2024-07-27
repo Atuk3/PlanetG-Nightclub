@@ -107,14 +107,22 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/services', methods=['GET', 'POST'])
-def services():
-    return render_template('services.html')
+@app.route('/gallery', methods=['GET', 'POST'])
+def gallery():
+    return render_template('gallery.html')
 
 
-@app.route('/singleproperty', methods=['GET', 'POST'])   
-def exclusive():
-    return render_template('property-single.html')
+@app.route('/fridaynights', methods=['GET', 'POST'])   
+def fridaynights():
+    return render_template('fridaysnights.html')
+
+@app.route('/saturdaynights', methods=['GET', 'POST'])   
+def saturdaynights():
+    return render_template('saturdaynights.html')
+
+@app.route('/sundaynights', methods=['GET', 'POST'])   
+def sundaynights():
+    return render_template('sundaynights.html')
 
 
 
